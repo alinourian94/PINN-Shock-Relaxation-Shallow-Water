@@ -16,6 +16,7 @@ Notes on Experiments:
 The provided scripts represent selected research configurations and do not correspond to single final runs. Additional experiments were conducted using alternative methods, implementations, and hyperparameter settings. Some auxiliary test files and intermediate experiments are not included in this repository.
 
 Due to the stochastic nature of neural network training and sensitivity to hyperparameters, minor variations in results may occur. The repository is intended to provide methodological transparency rather than a fully optimized or automated simulation framework. 
+
 Requirements: 
 Python 3.9+ , 
 TensorFlow / SciANN, 

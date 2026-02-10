@@ -13,7 +13,7 @@ Two-stage optimization (ADAM → LBFGS for shock cases).
 For shock-containing problems, training is performed in two stages: ADAM for global exploration followed by LBFGS for solution refinement and improved shock resolution. Local relaxation is applied selectively to the momentum equation to enhance stability and accuracy near discontinuities. 
 
 Notes on Experiments: 
-The provided scripts correspond to representative research configurations and are not individual final runs. For each method, multiple simulations were performed using different parameters and settings. The reported results and figures in the study were obtained by aggregating these runs and comparing the overall performance of the proposed approaches. 
+The provided scripts represent selected research configurations and do not correspond to single final runs. Additional experiments were conducted using alternative methods, implementations, and hyperparameter settings. Some auxiliary test files and intermediate experiments are not included in this repository.
 
 Due to the stochastic nature of neural network training and sensitivity to hyperparameters, minor variations in results may occur. The repository is intended to provide methodological transparency rather than a fully optimized or automated simulation framework. 
 Requirements: 
